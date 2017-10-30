@@ -13,6 +13,9 @@
 		644EDA8E1FA2FB3000CB9956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644EDA8C1FA2FB3000CB9956 /* Main.storyboard */; };
 		644EDA901FA2FB3000CB9956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644EDA8F1FA2FB3000CB9956 /* Assets.xcassets */; };
 		644EDA931FA2FB3000CB9956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644EDA911FA2FB3000CB9956 /* LaunchScreen.storyboard */; };
+		644EDA9D1FA2FB6000CB9956 /* PayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 644EDA9C1FA2FB6000CB9956 /* PayPasswordView.m */; };
+		644EDAA01FA2FB7A00CB9956 /* PayPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 644EDA9F1FA2FB7A00CB9956 /* PayPasswordInputView.m */; };
+		644EDAA41FA307DE00CB9956 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 644EDAA31FA307DE00CB9956 /* UIView+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		644EDA8F1FA2FB3000CB9956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644EDA921FA2FB3000CB9956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		644EDA941FA2FB3000CB9956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644EDA9B1FA2FB6000CB9956 /* PayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPasswordView.h; sourceTree = "<group>"; };
+		644EDA9C1FA2FB6000CB9956 /* PayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPasswordView.m; sourceTree = "<group>"; };
+		644EDA9E1FA2FB7A00CB9956 /* PayPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPasswordInputView.h; sourceTree = "<group>"; };
+		644EDA9F1FA2FB7A00CB9956 /* PayPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPasswordInputView.m; sourceTree = "<group>"; };
+		644EDAA11FA2FD2500CB9956 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		644EDAA21FA307DE00CB9956 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		644EDAA31FA307DE00CB9956 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,9 @@
 				644EDA871FA2FB3000CB9956 /* AppDelegate.m */,
 				644EDA891FA2FB3000CB9956 /* ViewController.h */,
 				644EDA8A1FA2FB3000CB9956 /* ViewController.m */,
+				644EDAA21FA307DE00CB9956 /* UIView+Category.h */,
+				644EDAA31FA307DE00CB9956 /* UIView+Category.m */,
+				644EDA9A1FA2FB4800CB9956 /* PayPasswordView */,
 				644EDA8C1FA2FB3000CB9956 /* Main.storyboard */,
 				644EDA8F1FA2FB3000CB9956 /* Assets.xcassets */,
 				644EDA911FA2FB3000CB9956 /* LaunchScreen.storyboard */,
@@ -77,6 +90,18 @@
 				644EDA841FA2FB3000CB9956 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		644EDA9A1FA2FB4800CB9956 /* PayPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				644EDA9B1FA2FB6000CB9956 /* PayPasswordView.h */,
+				644EDA9C1FA2FB6000CB9956 /* PayPasswordView.m */,
+				644EDA9E1FA2FB7A00CB9956 /* PayPasswordInputView.h */,
+				644EDA9F1FA2FB7A00CB9956 /* PayPasswordInputView.m */,
+				644EDAA11FA2FD2500CB9956 /* Constant.h */,
+			);
+			path = PayPasswordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644EDA9D1FA2FB6000CB9956 /* PayPasswordView.m in Sources */,
 				644EDA8B1FA2FB3000CB9956 /* ViewController.m in Sources */,
 				644EDA881FA2FB3000CB9956 /* AppDelegate.m in Sources */,
 				644EDA851FA2FB3000CB9956 /* main.m in Sources */,
+				644EDAA41FA307DE00CB9956 /* UIView+Category.m in Sources */,
+				644EDAA01FA2FB7A00CB9956 /* PayPasswordInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
